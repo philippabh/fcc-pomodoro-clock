@@ -1,0 +1,20 @@
+{
+  "name": "fcc-pomodoro-clock",
+  "homepage": "https://github.com/philippabh/fcc-pomodoro-clock",
+  "authors": [
+    "philippabh <p.springrhythm@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

@@ -1,0 +1,35 @@
+
+#body {
+    background-color: #F06292;
+}
+
+#header {
+  color:white;
+  font-family: Pacifico;
+  font-size: 45px;
+}
+
+#sub-header {
+  color: white;
+  font-family: verdana;
+}
+
+#fccLogo {
+  height:40px;
+  text-align: center;
+}
+
+#break-length, #session-length {
+  font-size: 24px;
+  color: #1DE9B6;  /* #1DE9B6; #8E24AA; #AB47BC; */
+  /* text-shadow: 2px 2px 5px white; */
+}
+
+#session-plus, #session-minus, #break-plus, #break-minus, #toggle-countdown {
+  color: #F06292;
+}
+
+#session-header, #break-header, #timer-label, #countdown-display {
+  color: #AB47BC;  /* #1DE9B6; #8E24AA; */
+  text-shadow: 2px 2px 5px white;
+}

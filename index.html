@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="css/style.css" type="text/css">
+      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300">
+      <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+      <script type="text/javascript" src="/js/index.js"></script>
+      <title>PBH Pomodoro Clock - FCC</title>
+      <audio id="gentle-alarm" src="https://notificationsounds.com/soundfiles/25ddc0f8c9d3e22e03d3076f98d83cb2/file-sounds-928-gentle-alarm.mp3"></audio>
+    </head>
+
+
+    <body id="body">
+      <div class="container-fluid text-center">
+        <div class="page-header">
+          <img id=fccLogo src="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg" alt="learn to code javascript at freeCodeCamp logo">
+          <h1 id="header">Pomodoro Clock</h1>
+          <h5 id="sub-header">by PBH</h5>
+        </div>
+        <div id="session">
+          <h4 id="session-header">Session length</h4>
+          <a href="#" class="btn btn-default time-btn" id="session-minus" role="button">-</a>
+          <span id="session-length">25</span>
+          <a href="#" class="btn btn-default time-btn" id="session-plus" role="button">+</a>
+        </div>
+        <div id="break">
+          <h4 id="break-header">Break length</h4>
+          <a href="#" class="btn btn-default time-btn" id="break-minus" role="button">-</a>
+          <span id="break-length">5</span>
+          <a href="#" class="btn btn-default time-btn" id="break-plus" role="button">+</a>
+        </div>
+        <div id="timer-display">
+          <h3 id="timer-label">Session or Break</h3>
+          <a href="#" class="btn btn-default" id="toggle-countdown" role="button">Start</a>
+          <h3 id="countdown-display">time countdown</h3>
+        </div>
+
+      </div>
+
+    </body>
+
+</html>
