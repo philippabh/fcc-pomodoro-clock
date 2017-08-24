@@ -23,13 +23,29 @@
   font-size: 24px;
   color: #1DE9B6;  /* #1DE9B6; #8E24AA; #AB47BC; */
   /* text-shadow: 2px 2px 5px white; */
+  vertical-align: middle;
 }
 
-#session-plus, #session-minus, #break-plus, #break-minus, #toggle-countdown {
+#session-plus, #session-minus, #break-plus, #break-minus, #start-countdown, #stop-session-countdown, #stop-break-countdown {
   color: #F06292;
 }
 
-#session-header, #break-header, #timer-label, #countdown-display {
+#session-header, #break-header {
   color: #AB47BC;  /* #1DE9B6; #8E24AA; */
   text-shadow: 2px 2px 5px white;
+}
+
+#stop-session-countdown, #stop-break-countdown, #resume-break-countdown {
+  display:none;
+}
+
+#start-countdown, #stop-session-countdown, #stop-break-countdown {
+  font-weight: bold;
+  margin: 20px;
+}
+
+#reset {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px black;
 }
